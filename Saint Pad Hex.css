@@ -1,0 +1,146 @@
+/* Body style */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color:#f9f9f9;
+}
+
+/* Navbar container */
+.navbar {
+  padding: 10px 50px;
+  
+  display: flex;
+  justify-content: flex-start; /* only left group */
+  align-content: left;
+  border-bottom:#a09f9f solid 1px;
+}
+
+/* Navbar list */
+.nav-left {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding-left: 2px;
+}
+
+/* Navbar items */
+.navbar li {
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 12px;
+  transition: color 0.3s, transform 0.2s;
+  color: #444444;
+}
+
+/* Hover-only items */
+.hover-only:hover {
+  color:#9a9898;
+  transform: scale(1.03);
+}
+
+/* Announcement line */
+.announcement-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f5e9;
+  color:black;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid #ffeeba;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 7px; 
+  border-style:ridge;
+  height: 50px;
+}
+
+.announcement-line:hover {
+  background-color:#444444;
+    color:#f9f9f9
+}
+
+/* Right text styling */
+.announcement-right {
+  font-weight: normal;
+  text-decoration: underline;
+  padding-right: 30px;
+}
+.announcement-left {
+
+  padding-left: 30px;
+}
+
+
+.centerizing {
+  text-align: center;
+  font-size: 15px;
+  color: #1d1c1c;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-style: normal;
+}
+.main-header {
+  text-align: center;
+  font-size: 65px;
+  color: #1c1c1c;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-style:normal;
+}
+
+.join {
+  text-align: center;
+  color:black;
+}
+
+.center-image {
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 1px;
+  
+}
+.footer-text {
+  text-align: center;
+  font-size: 65px;
+  color: #1c1c1c;
+  margin-top: 0px;
+  margin-bottom: 120px;
+  font-style:normal;
+}
+.joint {
+  text-align: center;
+  color: rgb(77, 2, 2);
+  opacity: 1;             /* Ntigaragare mbere */
+  transform: translateY(30px); /* Igaragare nk’izamutse */
+  transition: all 1.5s ease-in-out; /* Itambutse bucece (smoothly) */
+}
+
+.joint.show {
+  opacity: 1;
+  transform: translateY(0); /* Igaragare neza hejuru */
+}
+
+
+.joi {
+  text-align: center;
+  color:rgb(36, 33, 33);
+  
+  font-size: 28px;
+  line-height: 1.6;
+  opacity: 1;             /* Ntigaragare mbere */
+  transform: translateY(30px); /* Igaragare nk’izamutse */
+  transition: all 1.5s ease-in-out; 
+}
+.joi.show {
+  opacity: 1;
+  transform: translateY(0);
+}
