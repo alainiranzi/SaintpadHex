@@ -7,7 +7,7 @@
 
     
    window.addEventListener('scroll', function() {
-    const elements = document.querySelectorAll('.joint, .joi');
+    const elements = document.querySelectorAll('.joint, .joi,  .smooth-img');
     const screenPosition = window.innerHeight / 1.2; // aho bigaragara kuri screen
 
     elements.forEach(element => {
@@ -22,6 +22,7 @@
       }
     });
   });
+  
 
   
 
