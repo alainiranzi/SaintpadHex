@@ -257,7 +257,7 @@ body {
 .hero {
   display: flex;
   align-items: center;
-  background: #fff;
+  background:rgb(246, 248, 250);
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -268,15 +268,30 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
+  
+  
+}
+.img {
+  border-radius: 60px;
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
 }
 
 .hero-image {
   flex: 1;
+
 }
 
 .hero-text {
   flex: 1;
   padding: 40px;
+   background:rgb(246, 248, 250);
 }
 
 .subtitle {
@@ -285,6 +300,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
+   background:rgb(246, 248, 250);
 }
 
 h1 {
@@ -305,7 +321,7 @@ h1 {
 
 .event, .spotlight {
   flex: 1;
-  background: #fff;
+   background:rgb(246, 248, 250);
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
