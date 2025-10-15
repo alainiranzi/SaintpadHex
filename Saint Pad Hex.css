@@ -7,8 +7,8 @@ body {
 
 /* Navbar container */
 .navbar {
-  padding: 10px 50px;
   
+  height: 65px;
   display: flex;
   justify-content: flex-start; /* only left group */
   align-content: left;
@@ -22,6 +22,8 @@ body {
   gap: 40px;
   margin: 0;
   padding-left: 2px;
+  font-size: 40px;
+  align-items: center;
 }
 
 /* Navbar items */
@@ -46,8 +48,8 @@ body {
   align-items: center;
   background-color: #f9f5e9;
   color:black;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
   cursor: pointer;
   font-size: 16px;
   border: 1px solid #ffeeba;
@@ -56,6 +58,8 @@ body {
   margin-top: 7px; 
   border-style:ridge;
   height: 50px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
 
 .announcement-line:hover {
@@ -102,10 +106,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  height: 500px;
+  height: 900px;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 1px;
+  
   
 }
 .footer-text {
@@ -317,13 +321,21 @@ h1 {
 .bottom {
   display: flex;
   gap: 20px;
+   opacity: 1;             /* Ntigaragare mbere */
+  transform: translateY(50px); /* Igaragare nk’izamutse */
+  transition: all 1.5s ease-in-out; /* Itambutse bucece (smoothly) */
+}
+
+.bottom.show {
+  opacity: 1;
+  transform: translateY(0); 
 }
 
 .event, .spotlight {
   flex: 1;
    background:rgb(246, 248, 250);
   border-radius: 15px;
-  padding: 20px;
+  padding: 30px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   text-align: center;
 }
@@ -335,13 +347,83 @@ h1 {
 }
 
 .profile img {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin: 15px 0;
 }
 
 .name {
   font-weight: bold;
+  font-size: 1.2rem;
+}
+.role {
+  color: #555;
   font-size: 1.1rem;
 }
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Container */
+.contineri {
+  
+  text-align: center;
+}
+
+/* Titles */
+.new {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Two-column layout */
+.results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+/* Sections */
+.results h2 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+  font-size: 1.1rem;
+  border-left: 2px solid #ddd;
+  padding-left: 8px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+a:hover {
+  color: #0055aa;
+  border-color: #0055aa;
+}
+
