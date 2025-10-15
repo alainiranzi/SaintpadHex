@@ -362,7 +362,7 @@ h1 {
   font-size: 1.1rem;
 }
 
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -370,22 +370,25 @@ h1 {
 }
 
 
-/* Container */
 .contineri {
   
   text-align: center;
 }
 
-/* Titles */
-.new {
+.neew {
   font-size: 3rem;
   margin-bottom: 10px;
+  padding-top: 40px;
+  text-align: left;
+  padding-left: 80px;
 }
 
-.subtitle {
+.subtitleee {
   font-size: 1rem;
   color: #555;
   margin-bottom: 40px;
+  text-align: left;
+  padding-left: 80px;
 }
 
 /* Two-column layout */
@@ -426,4 +429,55 @@ a:hover {
   color: #0055aa;
   border-color: #0055aa;
 }
+.debate{
+  font-style: normal;
+  color: #5d3e23;
+  
+}
+
+ .header {
+    background-image: url('inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg'); /* Your uploaded image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .header a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: underline;
+    margin-top: 10px;
+  }
+
+  .footer {
+    background-color: #555;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 350px;
+  }
+
+  .footer div {
+    margin: 10px 0;
+  }
+
+  .social-icons a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
 
