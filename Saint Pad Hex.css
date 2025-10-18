@@ -532,3 +532,58 @@ li {
 .header a:hover {
     color: #b3aaaa;
   }
+
+/* Responsive tweaks */
+@media screen and (max-width: 1024px) {
+  .nav-left {
+    gap: 30px;
+    font-size: 15px;
+  }
+}
+.hover-only a:hover {
+  color:#9a9898;
+  transform: scale(1.03);
+}
+@media screen and (max-width: 767px) {
+  .nav-left {
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+  }
+  .center-image {
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .main-header {
+    font-size: 45px;
+  }
+  .footer-right {
+    padding-right: 20px;
+    font-size: 1.2rem;
+  }
+}
+.hover-only a:hover {
+  color:#9a9898;
+  transform: scale(1.03);
+}
+
+@media screen and (max-width: 430px) {
+  .nav-left {
+    flex-direction:row;      
+    gap: 10px;                  
+    font-size: 13px;             
+    width: 100%;                 
+    align-items: center;         
+    margin: 0;
+    padding: 10px 0;            
+  }
+
+  .nav-left li {
+    width: 100%;                 
+    text-align: center;          
+  }
+}
+
+
+
