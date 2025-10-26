@@ -19,7 +19,7 @@ It provides a clean interface, smooth animations, and interactive sections such 
 
 - **HTML5** – Structure and content  
 - **CSS3** – Styling, layout, and responsiveness  
-- **JavaScript (Vanilla)** – Interactivity and animation logic  
+- **JavaScript** – Interactivity and animation logic  
 
 ---
 
@@ -45,7 +45,7 @@ It provides a clean interface, smooth animations, and interactive sections such 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
+   https://github.com/alainiranzi/SaintpadHex.git
 2. Open the folder in VS Code or your preferred editor.
-3. Run the index.html file in your browser.
+3. Run the Saint Pad Hex.html file in your browser.
 
