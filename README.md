@@ -41,11 +41,12 @@ It provides a clean interface, smooth animations, and interactive sections such 
 
 ---
 
-## ⚙️ How to Run the Project
+##  How to Run the Project
 
 1. Clone the repository:
    ```bash
    https://github.com/alainiranzi/SaintpadHex.git
-2. Open the folder in VS Code or your preferred editor.
-3. Run the Saint Pad Hex.html file in your browser.
+   ```
+3. Open the folder in VS Code or your preferred editor.
+4. Run the Saint Pad Hex.html file in your browser.
 
